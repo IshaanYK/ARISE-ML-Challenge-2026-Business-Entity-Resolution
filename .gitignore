@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+.DS_Store
+*.egg-info/
+dist/
+build/
+
+# Large dataset files - too big for git
+dataset/
+
+# Model artifacts (large binary files)
+model_artifacts/*.pkl
+model_artifacts/*.joblib
+model_artifacts/*.bin
+
+# Output TSVs (large - exceed GitHub 100MB limit)
+output/*.tsv
+output_best_0803/
+output_backup_v3/
+output_v1_0785/
+ARISE_submission/output/*.tsv
+
+# Large model binary files
+model_artifacts/*.txt
+model_artifacts/*.pkl
+model_artifacts/*.joblib
+model_artifacts/*.bin
+model_artifacts/*.lgbm
+
+# MacOS artifacts
+__MACOSX/
+
+# Zip archives
+*.zip
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Scratch work
+scratch/

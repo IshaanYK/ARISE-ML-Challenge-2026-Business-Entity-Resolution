@@ -1,0 +1,33 @@
+{
+  "threshold": 0.9700000000000004,
+  "feature_names": [
+    "n_ratio",
+    "n_tsort",
+    "n_tset",
+    "n_part",
+    "n_len_diff",
+    "n_len_ratio",
+    "n_jaccard",
+    "addr_null",
+    "a_ratio",
+    "a_tsort",
+    "a_tset",
+    "a_part",
+    "a_jaccard",
+    "num_common",
+    "first_num_match",
+    "cross1",
+    "cross2",
+    "is_s2",
+    "b_score",
+    "b_rank",
+    "n_exact_tok_overlap",
+    "n_shared_bigram",
+    "n_is_prefix",
+    "n_abbr_match",
+    "a_digit_overlap",
+    "a_street_match",
+    "n_wmd_approx",
+    "n_s2_bonus"
+  ]
+}
